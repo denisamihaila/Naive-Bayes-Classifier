@@ -3,6 +3,7 @@ import json
 delimiters = [",", ";", " ", "'", "’", "-", "."]
 probability_of_a_sport = 0
 sports = []
+texts = dict()
 
 # Functia citeste datele din articole.json
 # Prelucreaza datele si la final returneaza un tuplu
@@ -21,20 +22,24 @@ def read_data():
 
     for sport in sports:
         organized_words_by_sport[sport] = list()
+        texts[sport] = list()
+
         for field in data[sport]:
             text = field["text"]
+            texts[sport].append(text)
             for delimiter in delimiters:
                 text = text.replace(delimiter, " ")
             text = text.split()
 
             for word in text:
-                organized_words_by_sport[sport].append(word.lower())
-                all_words.add(word.lower())
+                if len(word) > 2:
+                    organized_words_by_sport[sport].append(word.lower())
+                    all_words.add(word.lower())
 
     global probability_of_a_sport
     probability_of_a_sport = 1 / len(sports)
 
-    return (organized_words_by_sport, all_words)
+    return organized_words_by_sport, all_words
 
 # Functia asta imi intoarce o structura de date
 # din care pot lua probabilitatea unui cuvant
@@ -65,32 +70,51 @@ def classify_prompt(prompt, probability_of):
         prompt = prompt.replace(delimiter, " ")
     words = [word.lower() for word in prompt.split()]
 
-    result = (0, "")
+    # Formula lui Bayes explicata: https://www.youtube.com/watch?v=O2L2Uv9pdDA
+    # aici se va calcula probabilitatea fiecarui sport
+    # initial fiecare sport are probabilitatea 1/4
+    sport_probability = { sport: probability_of_a_sport for sport in sports }
+    # la final alegem sportul cu probabilitatea cea mai mare
 
     for word in words:
         for sport in sports:
             if word in probability_of:
-                probability = probability_of_a_sport * probability_of[word][sport]
-                if probability > result[0]:
-                    result = (probability, sport)
+                # inmultim probabilitatea unui cuvant care se regaseste in sportul respectiv
+                # astfel se va face P(sport) * P(cuvant1 | sport) * P(cuvant2 | sport) ...
+                sport_probability[sport] *= probability_of[word][sport]
+
+    result = (0, "")
+
+    # aici vedem care este sportul cu probabilitatea cea mai mare
+    for sport in sport_probability:
+        if sport_probability[sport] > result[0]:
+            result = sport_probability[sport], sport
 
     return result
 
 def calculate_accuracy():
+    global texts
     tpl = read_data()
-    organized_words_by_sport = tpl[0]
-
     probability_of = probabilities_of_words(tpl)
 
-    count = 0
-    for sport in organized_words_by_sport:
-        count += len(organized_words_by_sport[sport])
-
     correct = 0
-    for sport in organized_words_by_sport:
-        for text in organized_words_by_sport[sport]:
-            correct += classify_prompt(text, probability_of)[1] == sport
+    total = 0
 
-    print(f"Acuratetea modelului este de {correct / count * 100:.2f}%.")
+    for sport in texts:
+        total += len(texts[sport])
+        for text in texts[sport]:
+            prediction = classify_prompt(text, probability_of)[1]
+            correct += prediction == sport
+
+    print(f"Acuratetea modelului este de {correct / total * 100:.2f}%.")
+
+def prompt(text):
+    global texts
+    tpl = read_data()
+    probability_of = probabilities_of_words(tpl)
+    prediction = classify_prompt(text, probability_of)[1]
+
+    print(f"Predictia a fost: {prediction}\n\n")
+
 
 calculate_accuracy()
