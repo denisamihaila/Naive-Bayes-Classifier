@@ -55,28 +55,21 @@ def classify_text(text, probs):
 
     result = (0, "")
 
-    for category in probs:
+    for category, word_probs in probs.items():
+        p_text_given_category = 1.0
 
-        # Compute P(word)
-        P_word = 0.0001
         for word in words:
-            P_word += words.count(word) / len(words)
+            p_word_given_category = word_probs.get(word, 0.0001)
+            p_text_given_category *= p_word_given_category
 
-        # Compute P(word | category)
-        P_word_given_category = 0.0001
-        for word in words:
-            if word in probs[category]:
-                P_word_given_category += probs[category][word]
+        p_category_given_text = p_text_given_category * p_category
 
-        # Compute P(category | word)
-        p_category_given_word = P_word_given_category * p_category / P_word
-
-        if p_category_given_word >= result[0]:
-            result = (p_category_given_word, category)
+        if p_category_given_text > result[0]:
+            result = (p_category_given_text, category)
 
     return result
 
 data = read_data()
 probs = calculate_probabilities_word(data)
-res = classify_text("I've won this tennis match using my FIFA Manchester City team", probs)
+res = classify_text("handball", probs)
 print(f"Textul apartine categoriei {res[1]} avand probabilitatea de {res[0] * 100:.2f}%.")
