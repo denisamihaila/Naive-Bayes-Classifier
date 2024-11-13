@@ -49,9 +49,6 @@ To add: usage instructions
 ## Limitations
 The project is a WIP and at the moment only supports detection for football, basketball, handball and tennis. More sports may be added in the future upon request. The >85% model accuracy makes it an useful tool for categorizing aforementioned sports, and the accuracy may be improved in potential future updates.
 
-## Contributing
-Feel free to add to this project by forking or by opening a pull request.
-
 ## References
 - Class courses and laboratories held by professor Mihai Bucătaru at the University of Bucharest
 - *[An Essay Towards Solving a Problem in the Doctrine of Chances](https://bayes.wustl.edu/Manual/an.essay.pdf)* by Thomas Bayes
