@@ -34,6 +34,6 @@ At the end, the sport with the highest $\log\mathbb{P}(\text{Sport}|\text{Text})
   - `process_data(data)`: organizes words by sport and calculates prior probability of each sport
   - `probabilities_of_words(tuple_data)`: calculates the smoothed probability of each word within each sport
   - `train(file_name)`: loads training data, process it, and calculates word probabilities
-  - `prompt(text)`: classifies a given text into a sport category by calculating probabiltiies
+  - `prompt(text)`: classifies a given text into a sport category by calculating probabilities
   - `accuracy()`: computes the model's accuracy on a test dataset
 
