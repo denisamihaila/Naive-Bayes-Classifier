@@ -60,7 +60,7 @@ class Bayes:
 
                 # Probabilitatea unui cuvant este data de (de_cate_ori_a_aparut_acel_cuvant + 1) / (toate cuvintele din acel sport)
                 # + 1 ca sa nu avem probabilitate 0
-                probability_of[word][sport] = (word_frequency + 1) / (len(organized_words_by_sport[sport]))
+            probability_of[word][sport] = (word_frequency + 1) / (len(organized_words_by_sport[sport]) + len(all_words))
         return probability_of
 
     def train(self, file_name):
