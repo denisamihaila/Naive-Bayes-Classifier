@@ -1,0 +1,46 @@
+{
+    "handball": [
+        {"text": "In a close match, Norway defeated Sweden 26-25 in the European Handball semifinal."},
+        {"text": "Poland’s comeback against Hungary secured them a 34-32 win in the Nations League."},
+        {"text": "Denmark defended their title with a 30-29 victory over France in the 2024 European Championship."},
+        {"text": "The 2024 Women’s World Cup final saw Norway defeat Germany 27-25 to claim the title."},
+        {"text": "Egypt’s handball team shocked France with a 31-28 quarterfinal win in the World Championship."},
+        {"text": "Spain captured the bronze medal at the European Championship with a narrow 25-24 win over Hungary."},
+        {"text": "France claimed the Women's European title with a 29-27 win over Denmark, with Dembélé scoring eight goals."},
+        {"text": "Qatar's 28-25 victory over Tunisia secured them a spot in the Asian Handball Championship finals."},
+        {"text": "Argentina advanced to the World Cup quarterfinals by defeating Brazil 32-30 in overtime."}
+    ],
+    "football": [
+        {"text": "Atalanta's 5-0 victory over Spezia was highlighted by a Zapata hat-trick, taking them to the top of Serie A."},
+        {"text": "Boca Juniors won the Argentine Superliga title, beating River Plate 3-1 for their 34th league title."},
+        {"text": "Southampton shocked Tottenham 3-1, with Ward-Prowse scoring a free-kick and assisting twice."},
+        {"text": "Portugal qualified for Euro 2024 with a 2-0 win over Sweden, with goals from Ronaldo and Fernandes."},
+        {"text": "LA Galaxy beat New York Red Bulls 2-1 to win the MLS Cup, marking their first title in five years."},
+        {"text": "Manchester City claimed the UEFA Champions League title with a 2-1 win over Real Madrid."},
+        {"text": "Inter Milan defeated Juventus 3-2 to win the Italian Cup for the first time in over a decade."},
+        {"text": "Chelsea's 4-1 victory over Arsenal in the FA Cup final secured their third title in five years."},
+        {"text": "Liverpool beat Manchester United 3-0 to secure the Premier League title on the final matchday."}
+    ],
+    "basketball": [
+        {"text": "The Las Vegas Aces won the WNBA Championship, with A'ja Wilson named Finals MVP."},
+        {"text": "Denver Nuggets' Nikola Jokić’s 30 points, 14 rebounds, and 8 assists secured a win over the Lakers."},
+        {"text": "Jayson Tatum’s 50 points led the Celtics to the Eastern Conference Finals in a win over the Heat."},
+        {"text": "Atlanta Dream won the WNBA Finals with Tiffany Hayes’ 31 points earning her Finals MVP."},
+        {"text": "Utah Jazz’s Donovan Mitchell scored 45 points in a Game 7 victory over the Clippers."},
+        {"text": "Milwaukee Bucks secured the NBA Championship, with Giannis Antetokounmpo scoring 45 points in Game 6."},
+        {"text": "Stephen Curry’s 51-point performance led the Warriors to a playoff victory over the Kings."},
+        {"text": "Phoenix Suns defeated the Lakers 4-2 in the Western Conference Finals, advancing to the NBA Finals."},
+        {"text": "Chicago Sky's Courtney Vandersloot recorded a triple-double in a playoff win over the Washington Mystics."}
+    ],
+    "tennis": [
+        {"text": "Nadal’s 15th Italian Open title in 2024 came after a win over Sinner in the final."},
+        {"text": "Bianca Andreescu’s comeback earned her the 2024 Miami Open title with a win over Kenin."},
+        {"text": "Jannik Sinner reached his first Grand Slam final at the 2024 French Open, losing to Djokovic."},
+        {"text": "Elina Svitolina returned to the WTA top rankings after winning the 2024 Indian Wells title."},
+        {"text": "Casper Ruud won his first Masters 1000 title in 2024, defeating Zverev in the Madrid Open."},
+        {"text": "Coco Gauff claimed her first Grand Slam at the 2024 US Open, defeating Swiatek in straight sets."},
+        {"text": "Novak Djokovic secured his 25th Grand Slam title by winning the 2024 Australian Open."},
+        {"text": "Carlos Alcaraz won the Wimbledon title in 2024, beating Medvedev in an epic five-set final."},
+        {"text": "Ons Jabeur made history as the first African woman to win the French Open, defeating Sabalenka in the final."}
+    ]
+}
