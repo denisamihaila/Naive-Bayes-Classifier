@@ -1,46 +1,46 @@
 {
     "handball": [
-        {"text": "The intense match saw Sweden barely losing 25-26 to Denmark in the European Championship."},
-        {"text": "Germany’s goalkeeper was the star of the game, making crucial saves in their 30-29 handball victory over Spain."},
-        {"text": "The match between Hungary and France ended with a draw, a rare outcome in international handball."},
-        {"text": "Denmark secured a convincing 32-28 win over Croatia, advancing to the semifinals of the handball World Cup."},
-        {"text": "Poland and Sweden battled to a 28-28 draw, with neither team giving an inch in the European Championship."},
-        {"text": "A thrilling handball match saw Egypt triumph 27-25 over Brazil in the Olympic qualifiers."},
-        {"text": "Hungary's handball team won 33-31 in overtime against Denmark, in a game full of unexpected twists."},
-        {"text": "France narrowly beat Norway 29-28 in a hard-fought handball battle during the World Cup quarterfinals."},
-        {"text": "Spain clinched a 30-29 handball win against Sweden, advancing to the finals of the Nations League."}
+        {"text": "The tight match ended in a draw, 28-28, with both sides giving everything they had till the final whistle."},
+        {"text": "France took the lead early in the handball game but struggled to keep it, eventually winning 30-29."},
+        {"text": "Germany’s defense played a crucial role in their victory, securing a 31-30 win against Spain."},
+        {"text": "The crowd went wild as Denmark narrowly beat Sweden 27-26, with both teams fighting until the very end."},
+        {"text": "Hungary and Croatia finished 28-28, with an incredible defensive performance from both goalkeepers."},
+        {"text": "Spain defeated Iceland in a dramatic 32-30 handball match, featuring a series of penalties in the final minutes."},
+        {"text": "Egypt barely managed a 29-28 win against France, a handball match that tested the limits of both teams."},
+        {"text": "The Netherlands fought hard but eventually lost 30-31 against Norway in the European Championship semifinal."},
+        {"text": "A fantastic match between Poland and Denmark ended with Denmark winning 31-30 in the final seconds."}
     ],
     "football": [
-        {"text": "In a dramatic final, Paris Saint-Germain won the Champions League, defeating Juventus 3-2."},
-        {"text": "The national teams of Spain and Germany faced off in a tense 1-1 draw, leaving the Euro 2024 qualifiers undecided."},
-        {"text": "Liverpool narrowly escaped defeat with a last-minute goal to draw 2-2 against AC Milan."},
-        {"text": "Real Madrid defeated Manchester City 4-3 in an intense match full of thrilling moments in the Champions League semifinals."},
-        {"text": "Bayern Munich won the Bundesliga after a 3-0 win over Borussia Dortmund, with Lewandowski scoring twice."},
-        {"text": "Arsenal suffered a 1-0 defeat against Chelsea in a game marked by several missed opportunities."},
-        {"text": "Brazil triumphed over Argentina 3-2 in a thrilling World Cup qualifier, featuring two red cards."},
-        {"text": "Monaco drew 1-1 against Marseille in a game full of tight defenses and missed chances."},
-        {"text": "Barcelona came back from two goals down to beat Atletico Madrid 3-2, with Messi scoring the winning goal."}
+        {"text": "In a thrilling international match, Spain narrowly defeated Italy 3-2, with both teams having their fair share of opportunities."},
+        {"text": "Manchester United and Chelsea fought a tough match, which ended in a surprising 2-2 draw."},
+        {"text": "Real Madrid's defense was tested in a 1-1 draw against Juventus, a Champions League game full of excitement."},
+        {"text": "Paris Saint-Germain barely managed a 3-3 draw against Liverpool in a game that saw multiple lead changes."},
+        {"text": "Brazil faced off against France in a friendly, with the match ending 1-1 after a missed penalty in the final minute."},
+        {"text": "Bayern Munich and Borussia Dortmund drew 2-2, with both teams playing excellent football."},
+        {"text": "AC Milan narrowly beat Napoli 4-3 in a game filled with both incredible goals and crucial mistakes."},
+        {"text": "Argentina played against Uruguay, winning 3-2 in a closely contested World Cup qualifier."},
+        {"text": "Barcelona managed a 2-2 draw with Sevilla, with both teams scoring in the final minutes."}
     ],
     "basketball": [
-        {"text": "The Golden State Warriors overcame the Chicago Bulls 115-112, with Curry scoring a crucial buzzer-beater."},
-        {"text": "Los Angeles Lakers faced a tough challenge against the Boston Celtics, eventually drawing 105-105 in a friendly match."},
-        {"text": "Giannis Antetokounmpo dominated the court, but the Bucks lost 95-98 to the Miami Heat in a close NBA matchup."},
-        {"text": "A record-breaking performance from Jayson Tatum helped the Boston Celtics secure a 123-120 win over the New York Knicks."},
-        {"text": "The Denver Nuggets came from behind to defeat the Dallas Mavericks, 108-107, in an overtime thriller."},
-        {"text": "WNBA saw the Seattle Storm edge out the Washington Mystics 86-84, with Bird delivering a spectacular assist."},
-        {"text": "Toronto Raptors beat the Brooklyn Nets 115-114 after a buzzer-beater by Pascal Siakam."},
-        {"text": "Phoenix Suns defeated Milwaukee Bucks 111-110, with Devin Booker scoring 38 points."},
-        {"text": "The LA Clippers outscored the Portland Trail Blazers 120-119 in a thrilling double-overtime game."}
+        {"text": "The Lakers and Celtics played an intense game, ending 115-115 after overtime, with players giving it their all."},
+        {"text": "The Miami Heat barely defeated the Golden State Warriors 105-104, a match filled with crucial turnovers."},
+        {"text": "Milwaukee Bucks lost 112-113 to the Toronto Raptors, despite a great performance by Antetokounmpo."},
+        {"text": "Phoenix Suns defeated the Chicago Bulls 121-119 in an exciting double-overtime NBA game."},
+        {"text": "The Boston Celtics faced the New York Knicks, ending in a 108-108 draw during a preseason match."},
+        {"text": "A tight match between the Lakers and the Grizzlies ended 110-109, with James scoring the decisive basket."},
+        {"text": "The Mavericks defeated the Trail Blazers 117-116, a game that was decided in the final seconds."},
+        {"text": "Toronto Raptors narrowly won against the Miami Heat 112-111, with Siakam making a last-minute three-pointer."},
+        {"text": "Golden State Warriors barely beat the Denver Nuggets 115-114, with Curry scoring a buzzer-beater."}
     ],
     "tennis": [
-        {"text": "Rafael Nadal fought hard but ultimately lost to Daniil Medvedev in a 5-set match at the Australian Open."},
-        {"text": "The Wimbledon semifinal saw Novak Djokovic narrowly defeat Stefanos Tsitsipas 6-7, 7-6, 6-4, 7-6."},
-        {"text": "Coco Gauff won her semifinal match at the US Open but struggled in the final against Emma Raducanu."},
-        {"text": "Naomi Osaka withdrew from the French Open, citing injury concerns before her match against Simona Halep."},
-        {"text": "In an unexpected turn of events, Zverev defeated Alcaraz in a thrilling five-setter in the US Open quarterfinals."},
-        {"text": "Serena Williams faced a tough challenge against Victoria Azarenka, ultimately losing in straight sets."},
-        {"text": "Sinner upset Tsitsipas at the Miami Open, winning 6-4, 3-6, 7-5 in a high-energy match."},
-        {"text": "Federer and Nadal played an exhibition match to raise funds for charity, thrilling tennis fans."},
-        {"text": "Djokovic battled his way to a four-set victory over Casper Ruud in the French Open."}
+        {"text": "Rafael Nadal narrowly lost to Daniil Medvedev in the Wimbledon quarterfinal, with the match ending in five sets."},
+        {"text": "Serena Williams defeated Naomi Osaka in the semifinal but eventually lost in the final to Swiatek."},
+        {"text": "Roger Federer faced Novak Djokovic in an exhibition match, which ended with Djokovic winning in three sets."},
+        {"text": "In an unexpected turn of events, Zverev defeated Tsitsipas in the French Open, with both players showing incredible skills."},
+        {"text": "Iga Świątek barely defeated Coco Gauff 6-7, 7-6, 7-5 in a dramatic match that had the crowd on their feet."},
+        {"text": "Djokovic won against Sinner in the US Open, a four-set match that had multiple tiebreaks."},
+        {"text": "Venus Williams lost to Simona Halep in a tight match at the Rome Masters, with each set going to a tiebreak."},
+        {"text": "Federer managed to beat Alcaraz in a charity match, thrilling fans with incredible rallies."},
+        {"text": "Elina Svitolina faced Victoria Azarenka, winning 6-4, 5-7, 7-6 in a closely contested battle."}
     ]
 }
