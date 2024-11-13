@@ -1,4 +1,4 @@
-![GitHub Repo stars](https://img.shields.io/github/stars/denisamihaila/Project-1-Probabilities-and-Statistics)
+![GitHub contributors](https://img.shields.io/github/contributors/denisamihaila/Project-1-Probabilities-and-Statistics) ![GitHub Repo stars](https://img.shields.io/github/stars/denisamihaila/Project-1-Probabilities-and-Statistics) ![GitHub forks](https://img.shields.io/github/forks/denisamihaila/Project-1-Probabilities-and-Statistics) ![GitHub top language](https://img.shields.io/github/languages/top/denisamihaila/Project-1-Probabilities-and-Statistics)
 
 # Bayes Sport Classifier
 This project serves to help users know what type of sport a piece of text is talking about with a **>85%** success rate, by implementing a Naive Bayes classification model in Python. The Bayes theorem is applied to compute the probability of a text belonging to each class (type of sport) based on word frequency within each sport category.
