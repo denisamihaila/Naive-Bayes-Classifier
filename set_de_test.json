@@ -1,46 +1,46 @@
 {
     "handball": [
-        {"text": "In a close match, Norway defeated Sweden 26-25 in the European Handball semifinal."},
-        {"text": "Poland’s comeback against Hungary secured them a 34-32 win in the Nations League."},
-        {"text": "Denmark defended their title with a 30-29 victory over France in the 2024 European Championship."},
-        {"text": "The 2024 Women’s World Cup final saw Norway defeat Germany 27-25 to claim the title."},
-        {"text": "Egypt’s handball team shocked France with a 31-28 quarterfinal win in the World Championship."},
-        {"text": "Spain captured the bronze medal at the European Championship with a narrow 25-24 win over Hungary."},
-        {"text": "France claimed the Women's European title with a 29-27 win over Denmark, with Dembélé scoring eight goals."},
-        {"text": "Qatar's 28-25 victory over Tunisia secured them a spot in the Asian Handball Championship finals."},
-        {"text": "Argentina advanced to the World Cup quarterfinals by defeating Brazil 32-30 in overtime."}
+        {"text": "The intense match saw Sweden barely losing 25-26 to Denmark in the European Championship."},
+        {"text": "Germany’s goalkeeper was the star of the game, making crucial saves in their 30-29 handball victory over Spain."},
+        {"text": "The match between Hungary and France ended with a draw, a rare outcome in international handball."},
+        {"text": "Denmark secured a convincing 32-28 win over Croatia, advancing to the semifinals of the handball World Cup."},
+        {"text": "Poland and Sweden battled to a 28-28 draw, with neither team giving an inch in the European Championship."},
+        {"text": "A thrilling handball match saw Egypt triumph 27-25 over Brazil in the Olympic qualifiers."},
+        {"text": "Hungary's handball team won 33-31 in overtime against Denmark, in a game full of unexpected twists."},
+        {"text": "France narrowly beat Norway 29-28 in a hard-fought handball battle during the World Cup quarterfinals."},
+        {"text": "Spain clinched a 30-29 handball win against Sweden, advancing to the finals of the Nations League."}
     ],
     "football": [
-        {"text": "Atalanta's 5-0 victory over Spezia was highlighted by a Zapata hat-trick, taking them to the top of Serie A."},
-        {"text": "Boca Juniors won the Argentine Superliga title, beating River Plate 3-1 for their 34th league title."},
-        {"text": "Southampton shocked Tottenham 3-1, with Ward-Prowse scoring a free-kick and assisting twice."},
-        {"text": "Portugal qualified for Euro 2024 with a 2-0 win over Sweden, with goals from Ronaldo and Fernandes."},
-        {"text": "LA Galaxy beat New York Red Bulls 2-1 to win the MLS Cup, marking their first title in five years."},
-        {"text": "Manchester City claimed the UEFA Champions League title with a 2-1 win over Real Madrid."},
-        {"text": "Inter Milan defeated Juventus 3-2 to win the Italian Cup for the first time in over a decade."},
-        {"text": "Chelsea's 4-1 victory over Arsenal in the FA Cup final secured their third title in five years."},
-        {"text": "Liverpool beat Manchester United 3-0 to secure the Premier League title on the final matchday."}
+        {"text": "In a dramatic final, Paris Saint-Germain won the Champions League, defeating Juventus 3-2."},
+        {"text": "The national teams of Spain and Germany faced off in a tense 1-1 draw, leaving the Euro 2024 qualifiers undecided."},
+        {"text": "Liverpool narrowly escaped defeat with a last-minute goal to draw 2-2 against AC Milan."},
+        {"text": "Real Madrid defeated Manchester City 4-3 in an intense match full of thrilling moments in the Champions League semifinals."},
+        {"text": "Bayern Munich won the Bundesliga after a 3-0 win over Borussia Dortmund, with Lewandowski scoring twice."},
+        {"text": "Arsenal suffered a 1-0 defeat against Chelsea in a game marked by several missed opportunities."},
+        {"text": "Brazil triumphed over Argentina 3-2 in a thrilling World Cup qualifier, featuring two red cards."},
+        {"text": "Monaco drew 1-1 against Marseille in a game full of tight defenses and missed chances."},
+        {"text": "Barcelona came back from two goals down to beat Atletico Madrid 3-2, with Messi scoring the winning goal."}
     ],
     "basketball": [
-        {"text": "The Las Vegas Aces won the WNBA Championship, with A'ja Wilson named Finals MVP."},
-        {"text": "Denver Nuggets' Nikola Jokić’s 30 points, 14 rebounds, and 8 assists secured a win over the Lakers."},
-        {"text": "Jayson Tatum’s 50 points led the Celtics to the Eastern Conference Finals in a win over the Heat."},
-        {"text": "Atlanta Dream won the WNBA Finals with Tiffany Hayes’ 31 points earning her Finals MVP."},
-        {"text": "Utah Jazz’s Donovan Mitchell scored 45 points in a Game 7 victory over the Clippers."},
-        {"text": "Milwaukee Bucks secured the NBA Championship, with Giannis Antetokounmpo scoring 45 points in Game 6."},
-        {"text": "Stephen Curry’s 51-point performance led the Warriors to a playoff victory over the Kings."},
-        {"text": "Phoenix Suns defeated the Lakers 4-2 in the Western Conference Finals, advancing to the NBA Finals."},
-        {"text": "Chicago Sky's Courtney Vandersloot recorded a triple-double in a playoff win over the Washington Mystics."}
+        {"text": "The Golden State Warriors overcame the Chicago Bulls 115-112, with Curry scoring a crucial buzzer-beater."},
+        {"text": "Los Angeles Lakers faced a tough challenge against the Boston Celtics, eventually drawing 105-105 in a friendly match."},
+        {"text": "Giannis Antetokounmpo dominated the court, but the Bucks lost 95-98 to the Miami Heat in a close NBA matchup."},
+        {"text": "A record-breaking performance from Jayson Tatum helped the Boston Celtics secure a 123-120 win over the New York Knicks."},
+        {"text": "The Denver Nuggets came from behind to defeat the Dallas Mavericks, 108-107, in an overtime thriller."},
+        {"text": "WNBA saw the Seattle Storm edge out the Washington Mystics 86-84, with Bird delivering a spectacular assist."},
+        {"text": "Toronto Raptors beat the Brooklyn Nets 115-114 after a buzzer-beater by Pascal Siakam."},
+        {"text": "Phoenix Suns defeated Milwaukee Bucks 111-110, with Devin Booker scoring 38 points."},
+        {"text": "The LA Clippers outscored the Portland Trail Blazers 120-119 in a thrilling double-overtime game."}
     ],
     "tennis": [
-        {"text": "Nadal’s 15th Italian Open title in 2024 came after a win over Sinner in the final."},
-        {"text": "Bianca Andreescu’s comeback earned her the 2024 Miami Open title with a win over Kenin."},
-        {"text": "Jannik Sinner reached his first Grand Slam final at the 2024 French Open, losing to Djokovic."},
-        {"text": "Elina Svitolina returned to the WTA top rankings after winning the 2024 Indian Wells title."},
-        {"text": "Casper Ruud won his first Masters 1000 title in 2024, defeating Zverev in the Madrid Open."},
-        {"text": "Coco Gauff claimed her first Grand Slam at the 2024 US Open, defeating Swiatek in straight sets."},
-        {"text": "Novak Djokovic secured his 25th Grand Slam title by winning the 2024 Australian Open."},
-        {"text": "Carlos Alcaraz won the Wimbledon title in 2024, beating Medvedev in an epic five-set final."},
-        {"text": "Ons Jabeur made history as the first African woman to win the French Open, defeating Sabalenka in the final."}
+        {"text": "Rafael Nadal fought hard but ultimately lost to Daniil Medvedev in a 5-set match at the Australian Open."},
+        {"text": "The Wimbledon semifinal saw Novak Djokovic narrowly defeat Stefanos Tsitsipas 6-7, 7-6, 6-4, 7-6."},
+        {"text": "Coco Gauff won her semifinal match at the US Open but struggled in the final against Emma Raducanu."},
+        {"text": "Naomi Osaka withdrew from the French Open, citing injury concerns before her match against Simona Halep."},
+        {"text": "In an unexpected turn of events, Zverev defeated Alcaraz in a thrilling five-setter in the US Open quarterfinals."},
+        {"text": "Serena Williams faced a tough challenge against Victoria Azarenka, ultimately losing in straight sets."},
+        {"text": "Sinner upset Tsitsipas at the Miami Open, winning 6-4, 3-6, 7-5 in a high-energy match."},
+        {"text": "Federer and Nadal played an exhibition match to raise funds for charity, thrilling tennis fans."},
+        {"text": "Djokovic battled his way to a four-set victory over Casper Ruud in the French Open."}
     ]
 }
