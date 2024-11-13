@@ -1,5 +1,5 @@
 # Bayes Sport Classifier
-This project serves to help users know what type of sport a piece of text is talking about with a **>95%** success rate, by implementing a Naive Bayes classification model in Python. The Bayes theorem is applied to compute the probability of a text belonging to each class (type of sport) based on word frequency within each sport category.
+This project serves to help users know what type of sport a piece of text is talking about with a **>85%** success rate, by implementing a Naive Bayes classification model in Python. The Bayes theorem is applied to compute the probability of a text belonging to each class (type of sport) based on word frequency within each sport category.
 
 ## Mathematical model used
 ### Bayes' Theorem
