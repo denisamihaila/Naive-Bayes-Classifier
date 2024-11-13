@@ -1,5 +1,10 @@
+![GitHub Repo stars](https://img.shields.io/github/stars/denisamihaila/Project-1-Probabilities-and-Statistics)
+
 # Bayes Sport Classifier
 This project serves to help users know what type of sport a piece of text is talking about with a **>85%** success rate, by implementing a Naive Bayes classification model in Python. The Bayes theorem is applied to compute the probability of a text belonging to each class (type of sport) based on word frequency within each sport category.
+
+## Built with
+<img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white"/> <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
 
 ## Mathematical model used
 ### Bayes' Theorem
@@ -37,3 +42,18 @@ At the end, the sport with the highest $\log\mathbb{P}(\text{Sport}|\text{Text})
   - `prompt(text)`: classifies a given text into a sport category by calculating probabilities
   - `accuracy()`: computes the model's accuracy on a test dataset
 
+<!---
+To add: usage instructions
+-->
+
+## Limitations
+The project is a WIP and at the moment only supports detection for football, basketball, handball and tennis. More sports may be added in the future upon request. The >85% model accuracy makes it an useful tool for categorizing aforementioned sports, and the accuracy may be improved in potential future updates.
+
+## Contributing
+Feel free to add to this project by forking or by opening a pull request.
+
+## References
+- Class courses and laboratories held by professor Mihai Bucătaru at the University of Bucharest
+- *[An Essay Towards Solving a Problem in the Doctrine of Chances](https://bayes.wustl.edu/Manual/an.essay.pdf)* by Thomas Bayes
+- *[Laplace smoothing in Naive Bayes algorithm](https://towardsdatascience.com/laplace-smoothing-in-na%C3%AFve-bayes-algorithm-9c237a8bdece)* by Vaibhav Jayaswal
+- *[Naive Bayes, Clearly Explained!!!](https://www.youtube.com/watch?v=O2L2Uv9pdDA)* by Josh Starmer
