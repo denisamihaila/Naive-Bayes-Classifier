@@ -109,4 +109,21 @@ class Bayes:
 
 bayes = Bayes()
 bayes.train('set_de_antrenament.json')
-print(f"Acuratetea modelului este de {bayes.accuracy()*100:.2f}%")
+
+print("==== Naive Bayes Sport Classifier ====")
+print("---- Choose an option (1/2) from the list below ----")
+print(" =>  1. Check model accuracy")
+print(" =>  2. Enter a prompt")
+
+while True:
+    option = int(input("     Enter your option here: "))
+    if option == 1:
+        print(f" ->  The model's accuracy is {bayes.accuracy()*100:.2f}%.")
+        break
+    elif option == 2:
+        prompt = input("     Your prompt: ").strip()
+        result = bayes.prompt(prompt)
+        print(f" ->  Your prompt could be classified as a {result[1]} text.")
+        break
+    else:
+        print("     Invalid option")
